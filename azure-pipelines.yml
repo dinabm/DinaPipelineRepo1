@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'DINA-Test-RG'
     location: 'Central US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/mcdenison/AzureRmPipeline/main/CreateWebApp/azuredeploy.json'
+    csmFileLink: 'https://raw.githubusercontent.com/dinabm/DinaPipelineRepo1/main/CreateWebApp/azuredeploy.json'
     overrideParameters: '-projectName dinaiactest'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
